@@ -1,0 +1,1971 @@
+{
+  "timestamp": "2026-02-09T17:54:25.531635",
+  "summary": {
+    "tests_run": 19,
+    "tests_passed": 19,
+    "pass_rate": 100.0
+  },
+  "results": [
+    {
+      "test_name": "User Registration",
+      "passed": true,
+      "details": "Status: 200 (expected 200)",
+      "response_data": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiZGEyZjZmNzEtMDk2MC00MjFjLWI1YzQtMjE1Yzc4ZjBlMGJjIiwidXNlcm5hbWUiOiJ0ZXN0ZXIxIiwiZXhwIjoxNzcxMjY0NDQwfQ.saY_aYFPAl18Z5v8YOVqvwFNYoI1rqBmEOiQe-olvr8",
+        "user": {
+          "id": "da2f6f71-0960-421c-b5c4-215c78f0e0bc",
+          "username": "tester1",
+          "email": "tester1@test.com",
+          "trader_type": "swing",
+          "xp": 0,
+          "level": 1,
+          "streak": 0
+        }
+      }
+    },
+    {
+      "test_name": "Get User Profile",
+      "passed": true,
+      "details": "Status: 200 (expected 200)",
+      "response_data": {
+        "id": "da2f6f71-0960-421c-b5c4-215c78f0e0bc",
+        "username": "tester1",
+        "email": "tester1@test.com",
+        "trader_type": "swing",
+        "xp": 0,
+        "level": 1,
+        "streak": 0,
+        "best_streak": 0,
+        "last_active": "2026-02-09T17:54:00.571564+00:00",
+        "achievements": [],
+        "created_at": "2026-02-09T17:54:00.571575+00:00"
+      }
+    },
+    {
+      "test_name": "Get EURUSD Price",
+      "passed": true,
+      "details": "Status: 200 (expected 200)",
+      "response_data": {
+        "symbol": "EURUSD=X",
+        "price": 1.19133,
+        "change": 0.11,
+        "data": [
+          {
+            "time": "2026-02-05T15:00:00+00:00",
+            "open": 1.1814744472503662,
+            "high": 1.1814744472503662,
+            "low": 1.178550362586975,
+            "close": 1.1796625852584839,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-05T16:00:00+00:00",
+            "open": 1.1795234680175781,
+            "high": 1.1806375980377197,
+            "low": 1.1789672374725342,
+            "close": 1.1806375980377197,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-05T17:00:00+00:00",
+            "open": 1.18035888671875,
+            "high": 1.1807769536972046,
+            "low": 1.1800801753997803,
+            "close": 1.18035888671875,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-05T18:00:00+00:00",
+            "open": 1.1804981231689453,
+            "high": 1.1806375980377197,
+            "low": 1.1796625852584839,
+            "close": 1.1796625852584839,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-05T19:00:00+00:00",
+            "open": 1.1796625852584839,
+            "high": 1.1800801753997803,
+            "low": 1.1796625852584839,
+            "close": 1.1798018217086792,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-05T20:00:00+00:00",
+            "open": 1.1796625852584839,
+            "high": 1.1798018217086792,
+            "low": 1.1784114837646484,
+            "close": 1.1784114837646484,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-05T21:00:00+00:00",
+            "open": 1.1784114837646484,
+            "high": 1.178550362586975,
+            "low": 1.1778563261032104,
+            "close": 1.177994966506958,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-05T22:00:00+00:00",
+            "open": 1.1784114837646484,
+            "high": 1.178828239440918,
+            "low": 1.1778563261032104,
+            "close": 1.1781338453292847,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-05T23:00:00+00:00",
+            "open": 1.1784114837646484,
+            "high": 1.1784114837646484,
+            "low": 1.1778563261032104,
+            "close": 1.1781338453292847,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-06T00:00:00+00:00",
+            "open": 1.177994966506958,
+            "high": 1.178550362586975,
+            "low": 1.177024483680725,
+            "close": 1.178550362586975,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-06T01:00:00+00:00",
+            "open": 1.178550362586975,
+            "high": 1.1792453527450562,
+            "low": 1.1782727241516113,
+            "close": 1.1786893606185913,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-06T02:00:00+00:00",
+            "open": 1.1789672374725342,
+            "high": 1.1795234680175781,
+            "low": 1.1789672374725342,
+            "close": 1.1791062355041504,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-06T03:00:00+00:00",
+            "open": 1.1791062355041504,
+            "high": 1.1793843507766724,
+            "low": 1.1789672374725342,
+            "close": 1.1791062355041504,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-06T04:00:00+00:00",
+            "open": 1.1791062355041504,
+            "high": 1.179940938949585,
+            "low": 1.1791062355041504,
+            "close": 1.1798018217086792,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-06T05:00:00+00:00",
+            "open": 1.1798018217086792,
+            "high": 1.18035888671875,
+            "low": 1.1798018217086792,
+            "close": 1.1802195310592651,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-06T06:00:00+00:00",
+            "open": 1.1800801753997803,
+            "high": 1.1804981231689453,
+            "low": 1.1798018217086792,
+            "close": 1.1800801753997803,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-06T07:00:00+00:00",
+            "open": 1.179940938949585,
+            "high": 1.1800801753997803,
+            "low": 1.1792453527450562,
+            "close": 1.1793843507766724,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-06T08:00:00+00:00",
+            "open": 1.1795234680175781,
+            "high": 1.179940938949585,
+            "low": 1.1791062355041504,
+            "close": 1.1796625852584839,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-06T09:00:00+00:00",
+            "open": 1.1796625852584839,
+            "high": 1.1800801753997803,
+            "low": 1.1795234680175781,
+            "close": 1.1796625852584839,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-06T10:00:00+00:00",
+            "open": 1.1795234680175781,
+            "high": 1.18035888671875,
+            "low": 1.1793843507766724,
+            "close": 1.1796625852584839,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-06T11:00:00+00:00",
+            "open": 1.1795234680175781,
+            "high": 1.1796625852584839,
+            "low": 1.1789672374725342,
+            "close": 1.1793843507766724,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-06T12:00:00+00:00",
+            "open": 1.1793843507766724,
+            "high": 1.1796625852584839,
+            "low": 1.1792453527450562,
+            "close": 1.1796625852584839,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-06T13:00:00+00:00",
+            "open": 1.1796625852584839,
+            "high": 1.1813349723815918,
+            "low": 1.1796625852584839,
+            "close": 1.1813349723815918,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-06T14:00:00+00:00",
+            "open": 1.1813349723815918,
+            "high": 1.1828720569610596,
+            "low": 1.1813349723815918,
+            "close": 1.1821727752685547,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-06T15:00:00+00:00",
+            "open": 1.1823126077651978,
+            "high": 1.1823126077651978,
+            "low": 1.1809163093566895,
+            "close": 1.1823126077651978,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-06T16:00:00+00:00",
+            "open": 1.1823126077651978,
+            "high": 1.1824523210525513,
+            "low": 1.1814744472503662,
+            "close": 1.1814744472503662,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-06T17:00:00+00:00",
+            "open": 1.1814744472503662,
+            "high": 1.1824523210525513,
+            "low": 1.1814744472503662,
+            "close": 1.1823126077651978,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-06T18:00:00+00:00",
+            "open": 1.1821727752685547,
+            "high": 1.182732105255127,
+            "low": 1.1821727752685547,
+            "close": 1.1821727752685547,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-06T19:00:00+00:00",
+            "open": 1.1823126077651978,
+            "high": 1.1824523210525513,
+            "low": 1.1818934679031372,
+            "close": 1.1823126077651978,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-06T20:00:00+00:00",
+            "open": 1.1823126077651978,
+            "high": 1.1825922727584839,
+            "low": 1.1821727752685547,
+            "close": 1.1825922727584839,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-06T21:00:00+00:00",
+            "open": 1.1825922727584839,
+            "high": 1.182732105255127,
+            "low": 1.1817537546157837,
+            "close": 1.1821727752685547,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-06T22:00:00+00:00",
+            "open": 1.1817537546157837,
+            "high": 1.1820330619812012,
+            "low": 1.1817537546157837,
+            "close": 1.1820330619812012,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-09T00:00:00+00:00",
+            "open": 1.1830118894577026,
+            "high": 1.1835720539093018,
+            "low": 1.182732105255127,
+            "close": 1.18343186378479,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-09T01:00:00+00:00",
+            "open": 1.18343186378479,
+            "high": 1.1835720539093018,
+            "low": 1.1828720569610596,
+            "close": 1.1828720569610596,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-09T02:00:00+00:00",
+            "open": 1.1828720569610596,
+            "high": 1.1828720569610596,
+            "low": 1.1820330619812012,
+            "close": 1.1823126077651978,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-09T03:00:00+00:00",
+            "open": 1.1823126077651978,
+            "high": 1.1828720569610596,
+            "low": 1.1821727752685547,
+            "close": 1.1821727752685547,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-09T04:00:00+00:00",
+            "open": 1.1823126077651978,
+            "high": 1.1830118894577026,
+            "low": 1.1823126077651978,
+            "close": 1.1830118894577026,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-09T05:00:00+00:00",
+            "open": 1.1830118894577026,
+            "high": 1.1839923858642578,
+            "low": 1.1830118894577026,
+            "close": 1.183712124824524,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-09T06:00:00+00:00",
+            "open": 1.183712124824524,
+            "high": 1.1860989332199097,
+            "low": 1.183712124824524,
+            "close": 1.1856770515441895,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-09T07:00:00+00:00",
+            "open": 1.1856770515441895,
+            "high": 1.186380386352539,
+            "low": 1.1851149797439575,
+            "close": 1.1859582662582397,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-09T08:00:00+00:00",
+            "open": 1.1859582662582397,
+            "high": 1.1868027448654175,
+            "low": 1.1855363845825195,
+            "close": 1.186661958694458,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-09T09:00:00+00:00",
+            "open": 1.1868027448654175,
+            "high": 1.1873664855957031,
+            "low": 1.186380386352539,
+            "close": 1.186521053314209,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-09T10:00:00+00:00",
+            "open": 1.186521053314209,
+            "high": 1.1872254610061646,
+            "low": 1.1859582662582397,
+            "close": 1.186380386352539,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-09T11:00:00+00:00",
+            "open": 1.186380386352539,
+            "high": 1.1875073909759521,
+            "low": 1.1862396001815796,
+            "close": 1.1872254610061646,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-09T12:00:00+00:00",
+            "open": 1.1873664855957031,
+            "high": 1.1886366605758667,
+            "low": 1.1873664855957031,
+            "close": 1.1884952783584595,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-09T13:00:00+00:00",
+            "open": 1.1886366605758667,
+            "high": 1.1907596588134766,
+            "low": 1.1884952783584595,
+            "close": 1.1906179189682007,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-09T14:00:00+00:00",
+            "open": 1.1906179189682007,
+            "high": 1.1921793222427368,
+            "low": 1.1906179189682007,
+            "close": 1.1921793222427368,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-09T15:00:00+00:00",
+            "open": 1.1923214197158813,
+            "high": 1.1928904056549072,
+            "low": 1.1907596588134766,
+            "close": 1.1913270950317383,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-09T16:00:00+00:00",
+            "open": 1.1914690732955933,
+            "high": 1.1920371055603027,
+            "low": 1.1897679567337036,
+            "close": 1.1900511980056763,
+            "volume": 0.0
+          },
+          {
+            "time": "2026-02-09T17:00:00+00:00",
+            "open": 1.1901928186416626,
+            "high": 1.1913270950317383,
+            "low": 1.1901928186416626,
+            "close": 1.1913270950317383,
+            "volume": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "test_name": "Market Overview",
+      "passed": true,
+      "details": "Status: 200 (expected 200)",
+      "response_data": {
+        "prices": {
+          "forex": [
+            {
+              "symbol": "EURUSD=X",
+              "name": "EUR/USD",
+              "price": 1.19133,
+              "change": 1.15
+            },
+            {
+              "symbol": "GBPUSD=X",
+              "name": "GBP/USD",
+              "price": 1.36732,
+              "change": 1.13
+            },
+            {
+              "symbol": "USDJPY=X",
+              "name": "USD/JPY",
+              "price": 156.03101,
+              "change": -0.48
+            }
+          ],
+          "crypto": [
+            {
+              "symbol": "BTC-USD",
+              "name": "BTC/USD",
+              "price": 70770.50781,
+              "change": 0.72
+            },
+            {
+              "symbol": "ETH-USD",
+              "name": "ETH/USD",
+              "price": 2125.604,
+              "change": 1.76
+            },
+            {
+              "symbol": "SOL-USD",
+              "name": "SOL/USD",
+              "price": 87.61094,
+              "change": 0.65
+            }
+          ],
+          "metals": [
+            {
+              "symbol": "GC=F",
+              "name": "Gold",
+              "price": 5086.2998,
+              "change": 0.0
+            },
+            {
+              "symbol": "SI=F",
+              "name": "Silver",
+              "price": 82.96,
+              "change": 0.0
+            },
+            {
+              "symbol": "PL=F",
+              "name": "Platinum",
+              "price": 2119.1001,
+              "change": 0.0
+            }
+          ]
+        },
+        "sessions": [
+          {
+            "name": "New York",
+            "status": "active",
+            "hours": "13:00 - 22:00 UTC"
+          }
+        ],
+        "timestamp": "2026-02-09T17:54:04.238944+00:00"
+      }
+    },
+    {
+      "test_name": "AI Analysis",
+      "passed": true,
+      "details": "Status: 200 (expected 200)",
+      "response_data": {
+        "analysis": {
+          "id": "fc311859-1919-45cb-b6b6-0e0714538beb",
+          "user_id": "da2f6f71-0960-421c-b5c4-215c78f0e0bc",
+          "symbol": "EURUSD=X",
+          "timeframe": "1h",
+          "asset_type": "forex",
+          "indicators": {
+            "rsi": 82.76,
+            "macd": 0.00325,
+            "sma_20": 1.18621,
+            "sma_50": 1.18253,
+            "bb_upper": 1.19298,
+            "bb_lower": 1.17943,
+            "support": 1.18185,
+            "resistance": 1.19237,
+            "current_price": 1.19133
+          },
+          "ai_result": {
+            "recommendation": "SELL",
+            "confidence": 74,
+            "tp1": 1.1885,
+            "tp2": 1.1862,
+            "tp3": 1.18255,
+            "sl": 1.1936,
+            "risk_reward": "1:2.8",
+            "patterns_detected": [
+              "Overbought RSI (RSI(14) > 70)",
+              "Bollinger Band upper-tag / near upper band",
+              "Short-term momentum slowdown after impulse (loss of follow-through near resistance)"
+            ],
+            "trend": "BULLISH",
+            "key_levels": {
+              "support": [
+                1.1902,
+                1.1885,
+                1.1862,
+                1.18185,
+                1.17943
+              ],
+              "resistance": [
+                1.19237,
+                1.19298,
+                1.1936
+              ]
+            },
+            "explanation": "EURUSD on the 1H timeframe remains in a bullish trend (price above SMA20=1.18621 and SMA50=1.18253 with positive MACD=0.00325). However, current conditions are stretched: RSI(14)=82.76 signals overbought, and price (1.19133) is pressing into the key resistance zone (1.19237) and near the Bollinger Upper (1.19298). Recent highs show repeated probing into the 1.1922\u20131.1929 area with failure to extend, suggesting supply/mean-reversion risk. For a swing trader, the higher-probability play is a pullback/mean reversion toward the 20SMA (1.1862) and potentially the 50SMA (1.1825). The stop is placed above the upper band/resistance cluster to avoid getting wicked out by a final breakout attempt.",
+            "entry_zone": "1.19180-1.19290",
+            "timeframe_bias": "Short-term bearish pullback/mean-reversion within a broader bullish trend; expect retracement risk while RSI cools.",
+            "advanced_patterns": [
+              "Market structure: bullish impulse with potential short-term distribution at resistance (range-top selling)",
+              "Mean-reversion setup: deviation from SMA20 with upper Bollinger proximity",
+              "Potential bull-trap risk if price briefly breaks 1.19237/1.19298 and rejects"
+            ],
+            "volume_analysis": "Volume data not provided; confirmation would be stronger if rejection at 1.19237-1.19298 occurs on rising volume followed by declining volume on bounces.",
+            "momentum": "Bullish trend momentum is still positive (MACD > 0), but upside momentum looks overheated and vulnerable to a corrective pullback given RSI extreme and resistance/upper-band compression."
+          },
+          "chart_data": [
+            {
+              "time": "2026-02-06T11:00:00+00:00",
+              "open": 1.17952,
+              "high": 1.17966,
+              "low": 1.17897,
+              "close": 1.17938
+            },
+            {
+              "time": "2026-02-06T12:00:00+00:00",
+              "open": 1.17938,
+              "high": 1.17966,
+              "low": 1.17925,
+              "close": 1.17966
+            },
+            {
+              "time": "2026-02-06T13:00:00+00:00",
+              "open": 1.17966,
+              "high": 1.18133,
+              "low": 1.17966,
+              "close": 1.18133
+            },
+            {
+              "time": "2026-02-06T14:00:00+00:00",
+              "open": 1.18133,
+              "high": 1.18287,
+              "low": 1.18133,
+              "close": 1.18217
+            },
+            {
+              "time": "2026-02-06T15:00:00+00:00",
+              "open": 1.18231,
+              "high": 1.18231,
+              "low": 1.18092,
+              "close": 1.18231
+            },
+            {
+              "time": "2026-02-06T16:00:00+00:00",
+              "open": 1.18231,
+              "high": 1.18245,
+              "low": 1.18147,
+              "close": 1.18147
+            },
+            {
+              "time": "2026-02-06T17:00:00+00:00",
+              "open": 1.18147,
+              "high": 1.18245,
+              "low": 1.18147,
+              "close": 1.18231
+            },
+            {
+              "time": "2026-02-06T18:00:00+00:00",
+              "open": 1.18217,
+              "high": 1.18273,
+              "low": 1.18217,
+              "close": 1.18217
+            },
+            {
+              "time": "2026-02-06T19:00:00+00:00",
+              "open": 1.18231,
+              "high": 1.18245,
+              "low": 1.18189,
+              "close": 1.18231
+            },
+            {
+              "time": "2026-02-06T20:00:00+00:00",
+              "open": 1.18231,
+              "high": 1.18259,
+              "low": 1.18217,
+              "close": 1.18259
+            },
+            {
+              "time": "2026-02-06T21:00:00+00:00",
+              "open": 1.18259,
+              "high": 1.18273,
+              "low": 1.18175,
+              "close": 1.18217
+            },
+            {
+              "time": "2026-02-06T22:00:00+00:00",
+              "open": 1.18175,
+              "high": 1.18203,
+              "low": 1.18175,
+              "close": 1.18203
+            },
+            {
+              "time": "2026-02-09T00:00:00+00:00",
+              "open": 1.18301,
+              "high": 1.18357,
+              "low": 1.18273,
+              "close": 1.18343
+            },
+            {
+              "time": "2026-02-09T01:00:00+00:00",
+              "open": 1.18343,
+              "high": 1.18357,
+              "low": 1.18287,
+              "close": 1.18287
+            },
+            {
+              "time": "2026-02-09T02:00:00+00:00",
+              "open": 1.18287,
+              "high": 1.18287,
+              "low": 1.18203,
+              "close": 1.18231
+            },
+            {
+              "time": "2026-02-09T03:00:00+00:00",
+              "open": 1.18231,
+              "high": 1.18287,
+              "low": 1.18217,
+              "close": 1.18217
+            },
+            {
+              "time": "2026-02-09T04:00:00+00:00",
+              "open": 1.18231,
+              "high": 1.18301,
+              "low": 1.18231,
+              "close": 1.18301
+            },
+            {
+              "time": "2026-02-09T05:00:00+00:00",
+              "open": 1.18301,
+              "high": 1.18399,
+              "low": 1.18301,
+              "close": 1.18371
+            },
+            {
+              "time": "2026-02-09T06:00:00+00:00",
+              "open": 1.18371,
+              "high": 1.1861,
+              "low": 1.18371,
+              "close": 1.18568
+            },
+            {
+              "time": "2026-02-09T07:00:00+00:00",
+              "open": 1.18568,
+              "high": 1.18638,
+              "low": 1.18511,
+              "close": 1.18596
+            },
+            {
+              "time": "2026-02-09T08:00:00+00:00",
+              "open": 1.18596,
+              "high": 1.1868,
+              "low": 1.18554,
+              "close": 1.18666
+            },
+            {
+              "time": "2026-02-09T09:00:00+00:00",
+              "open": 1.1868,
+              "high": 1.18737,
+              "low": 1.18638,
+              "close": 1.18652
+            },
+            {
+              "time": "2026-02-09T10:00:00+00:00",
+              "open": 1.18652,
+              "high": 1.18723,
+              "low": 1.18596,
+              "close": 1.18638
+            },
+            {
+              "time": "2026-02-09T11:00:00+00:00",
+              "open": 1.18638,
+              "high": 1.18751,
+              "low": 1.18624,
+              "close": 1.18723
+            },
+            {
+              "time": "2026-02-09T12:00:00+00:00",
+              "open": 1.18737,
+              "high": 1.18864,
+              "low": 1.18737,
+              "close": 1.1885
+            },
+            {
+              "time": "2026-02-09T13:00:00+00:00",
+              "open": 1.18864,
+              "high": 1.19076,
+              "low": 1.1885,
+              "close": 1.19062
+            },
+            {
+              "time": "2026-02-09T14:00:00+00:00",
+              "open": 1.19062,
+              "high": 1.19218,
+              "low": 1.19062,
+              "close": 1.19218
+            },
+            {
+              "time": "2026-02-09T15:00:00+00:00",
+              "open": 1.19232,
+              "high": 1.19289,
+              "low": 1.19076,
+              "close": 1.19133
+            },
+            {
+              "time": "2026-02-09T16:00:00+00:00",
+              "open": 1.19147,
+              "high": 1.19204,
+              "low": 1.18977,
+              "close": 1.19005
+            },
+            {
+              "time": "2026-02-09T17:00:00+00:00",
+              "open": 1.19019,
+              "high": 1.19133,
+              "low": 1.19019,
+              "close": 1.19133
+            }
+          ],
+          "created_at": "2026-02-09T17:54:18.841301+00:00"
+        }
+      }
+    },
+    {
+      "test_name": "Analysis History",
+      "passed": true,
+      "details": "Status: 200 (expected 200)",
+      "response_data": {
+        "analyses": [
+          {
+            "id": "fc311859-1919-45cb-b6b6-0e0714538beb",
+            "user_id": "da2f6f71-0960-421c-b5c4-215c78f0e0bc",
+            "symbol": "EURUSD=X",
+            "timeframe": "1h",
+            "asset_type": "forex",
+            "indicators": {
+              "rsi": 82.76,
+              "macd": 0.00325,
+              "sma_20": 1.18621,
+              "sma_50": 1.18253,
+              "bb_upper": 1.19298,
+              "bb_lower": 1.17943,
+              "support": 1.18185,
+              "resistance": 1.19237,
+              "current_price": 1.19133
+            },
+            "ai_result": {
+              "recommendation": "SELL",
+              "confidence": 74,
+              "tp1": 1.1885,
+              "tp2": 1.1862,
+              "tp3": 1.18255,
+              "sl": 1.1936,
+              "risk_reward": "1:2.8",
+              "patterns_detected": [
+                "Overbought RSI (RSI(14) > 70)",
+                "Bollinger Band upper-tag / near upper band",
+                "Short-term momentum slowdown after impulse (loss of follow-through near resistance)"
+              ],
+              "trend": "BULLISH",
+              "key_levels": {
+                "support": [
+                  1.1902,
+                  1.1885,
+                  1.1862,
+                  1.18185,
+                  1.17943
+                ],
+                "resistance": [
+                  1.19237,
+                  1.19298,
+                  1.1936
+                ]
+              },
+              "explanation": "EURUSD on the 1H timeframe remains in a bullish trend (price above SMA20=1.18621 and SMA50=1.18253 with positive MACD=0.00325). However, current conditions are stretched: RSI(14)=82.76 signals overbought, and price (1.19133) is pressing into the key resistance zone (1.19237) and near the Bollinger Upper (1.19298). Recent highs show repeated probing into the 1.1922\u20131.1929 area with failure to extend, suggesting supply/mean-reversion risk. For a swing trader, the higher-probability play is a pullback/mean reversion toward the 20SMA (1.1862) and potentially the 50SMA (1.1825). The stop is placed above the upper band/resistance cluster to avoid getting wicked out by a final breakout attempt.",
+              "entry_zone": "1.19180-1.19290",
+              "timeframe_bias": "Short-term bearish pullback/mean-reversion within a broader bullish trend; expect retracement risk while RSI cools.",
+              "advanced_patterns": [
+                "Market structure: bullish impulse with potential short-term distribution at resistance (range-top selling)",
+                "Mean-reversion setup: deviation from SMA20 with upper Bollinger proximity",
+                "Potential bull-trap risk if price briefly breaks 1.19237/1.19298 and rejects"
+              ],
+              "volume_analysis": "Volume data not provided; confirmation would be stronger if rejection at 1.19237-1.19298 occurs on rising volume followed by declining volume on bounces.",
+              "momentum": "Bullish trend momentum is still positive (MACD > 0), but upside momentum looks overheated and vulnerable to a corrective pullback given RSI extreme and resistance/upper-band compression."
+            },
+            "chart_data": [
+              {
+                "time": "2026-02-06T11:00:00+00:00",
+                "open": 1.17952,
+                "high": 1.17966,
+                "low": 1.17897,
+                "close": 1.17938
+              },
+              {
+                "time": "2026-02-06T12:00:00+00:00",
+                "open": 1.17938,
+                "high": 1.17966,
+                "low": 1.17925,
+                "close": 1.17966
+              },
+              {
+                "time": "2026-02-06T13:00:00+00:00",
+                "open": 1.17966,
+                "high": 1.18133,
+                "low": 1.17966,
+                "close": 1.18133
+              },
+              {
+                "time": "2026-02-06T14:00:00+00:00",
+                "open": 1.18133,
+                "high": 1.18287,
+                "low": 1.18133,
+                "close": 1.18217
+              },
+              {
+                "time": "2026-02-06T15:00:00+00:00",
+                "open": 1.18231,
+                "high": 1.18231,
+                "low": 1.18092,
+                "close": 1.18231
+              },
+              {
+                "time": "2026-02-06T16:00:00+00:00",
+                "open": 1.18231,
+                "high": 1.18245,
+                "low": 1.18147,
+                "close": 1.18147
+              },
+              {
+                "time": "2026-02-06T17:00:00+00:00",
+                "open": 1.18147,
+                "high": 1.18245,
+                "low": 1.18147,
+                "close": 1.18231
+              },
+              {
+                "time": "2026-02-06T18:00:00+00:00",
+                "open": 1.18217,
+                "high": 1.18273,
+                "low": 1.18217,
+                "close": 1.18217
+              },
+              {
+                "time": "2026-02-06T19:00:00+00:00",
+                "open": 1.18231,
+                "high": 1.18245,
+                "low": 1.18189,
+                "close": 1.18231
+              },
+              {
+                "time": "2026-02-06T20:00:00+00:00",
+                "open": 1.18231,
+                "high": 1.18259,
+                "low": 1.18217,
+                "close": 1.18259
+              },
+              {
+                "time": "2026-02-06T21:00:00+00:00",
+                "open": 1.18259,
+                "high": 1.18273,
+                "low": 1.18175,
+                "close": 1.18217
+              },
+              {
+                "time": "2026-02-06T22:00:00+00:00",
+                "open": 1.18175,
+                "high": 1.18203,
+                "low": 1.18175,
+                "close": 1.18203
+              },
+              {
+                "time": "2026-02-09T00:00:00+00:00",
+                "open": 1.18301,
+                "high": 1.18357,
+                "low": 1.18273,
+                "close": 1.18343
+              },
+              {
+                "time": "2026-02-09T01:00:00+00:00",
+                "open": 1.18343,
+                "high": 1.18357,
+                "low": 1.18287,
+                "close": 1.18287
+              },
+              {
+                "time": "2026-02-09T02:00:00+00:00",
+                "open": 1.18287,
+                "high": 1.18287,
+                "low": 1.18203,
+                "close": 1.18231
+              },
+              {
+                "time": "2026-02-09T03:00:00+00:00",
+                "open": 1.18231,
+                "high": 1.18287,
+                "low": 1.18217,
+                "close": 1.18217
+              },
+              {
+                "time": "2026-02-09T04:00:00+00:00",
+                "open": 1.18231,
+                "high": 1.18301,
+                "low": 1.18231,
+                "close": 1.18301
+              },
+              {
+                "time": "2026-02-09T05:00:00+00:00",
+                "open": 1.18301,
+                "high": 1.18399,
+                "low": 1.18301,
+                "close": 1.18371
+              },
+              {
+                "time": "2026-02-09T06:00:00+00:00",
+                "open": 1.18371,
+                "high": 1.1861,
+                "low": 1.18371,
+                "close": 1.18568
+              },
+              {
+                "time": "2026-02-09T07:00:00+00:00",
+                "open": 1.18568,
+                "high": 1.18638,
+                "low": 1.18511,
+                "close": 1.18596
+              },
+              {
+                "time": "2026-02-09T08:00:00+00:00",
+                "open": 1.18596,
+                "high": 1.1868,
+                "low": 1.18554,
+                "close": 1.18666
+              },
+              {
+                "time": "2026-02-09T09:00:00+00:00",
+                "open": 1.1868,
+                "high": 1.18737,
+                "low": 1.18638,
+                "close": 1.18652
+              },
+              {
+                "time": "2026-02-09T10:00:00+00:00",
+                "open": 1.18652,
+                "high": 1.18723,
+                "low": 1.18596,
+                "close": 1.18638
+              },
+              {
+                "time": "2026-02-09T11:00:00+00:00",
+                "open": 1.18638,
+                "high": 1.18751,
+                "low": 1.18624,
+                "close": 1.18723
+              },
+              {
+                "time": "2026-02-09T12:00:00+00:00",
+                "open": 1.18737,
+                "high": 1.18864,
+                "low": 1.18737,
+                "close": 1.1885
+              },
+              {
+                "time": "2026-02-09T13:00:00+00:00",
+                "open": 1.18864,
+                "high": 1.19076,
+                "low": 1.1885,
+                "close": 1.19062
+              },
+              {
+                "time": "2026-02-09T14:00:00+00:00",
+                "open": 1.19062,
+                "high": 1.19218,
+                "low": 1.19062,
+                "close": 1.19218
+              },
+              {
+                "time": "2026-02-09T15:00:00+00:00",
+                "open": 1.19232,
+                "high": 1.19289,
+                "low": 1.19076,
+                "close": 1.19133
+              },
+              {
+                "time": "2026-02-09T16:00:00+00:00",
+                "open": 1.19147,
+                "high": 1.19204,
+                "low": 1.18977,
+                "close": 1.19005
+              },
+              {
+                "time": "2026-02-09T17:00:00+00:00",
+                "open": 1.19019,
+                "high": 1.19133,
+                "low": 1.19019,
+                "close": 1.19133
+              }
+            ],
+            "created_at": "2026-02-09T17:54:18.841301+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "test_name": "Create Trade",
+      "passed": true,
+      "details": "Status: 200 (expected 200)",
+      "response_data": {
+        "id": "562af8a1-a6e4-435c-a573-8dab29869131",
+        "user_id": "da2f6f71-0960-421c-b5c4-215c78f0e0bc",
+        "symbol": "EURUSD",
+        "entry_price": 1.085,
+        "position_size": 1.0,
+        "tp1": null,
+        "tp2": null,
+        "tp3": null,
+        "sl": null,
+        "trade_type": "buy",
+        "outcome": "tp_hit",
+        "exit_price": 1.09,
+        "pnl": 50.0,
+        "notes": "",
+        "asset_type": "forex",
+        "timeframe": "1h",
+        "status": "closed",
+        "created_at": "2026-02-09T17:54:19.785483+00:00"
+      }
+    },
+    {
+      "test_name": "Get Trades",
+      "passed": true,
+      "details": "Status: 200 (expected 200)",
+      "response_data": {
+        "trades": [
+          {
+            "id": "562af8a1-a6e4-435c-a573-8dab29869131",
+            "user_id": "da2f6f71-0960-421c-b5c4-215c78f0e0bc",
+            "symbol": "EURUSD",
+            "entry_price": 1.085,
+            "position_size": 1.0,
+            "tp1": null,
+            "tp2": null,
+            "tp3": null,
+            "sl": null,
+            "trade_type": "buy",
+            "outcome": "tp_hit",
+            "exit_price": 1.09,
+            "pnl": 50.0,
+            "notes": "",
+            "asset_type": "forex",
+            "timeframe": "1h",
+            "status": "closed",
+            "created_at": "2026-02-09T17:54:19.785483+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "test_name": "Update Trade",
+      "passed": true,
+      "details": "Status: 200 (expected 200)",
+      "response_data": {
+        "success": true
+      }
+    },
+    {
+      "test_name": "Create Goal",
+      "passed": true,
+      "details": "Status: 200 (expected 200)",
+      "response_data": {
+        "id": "40e52ec3-8516-4de9-a32f-c4fb68ac692d",
+        "user_id": "da2f6f71-0960-421c-b5c4-215c78f0e0bc",
+        "title": "Monthly Target",
+        "target_profit": 500.0,
+        "deadline": null,
+        "description": "Test goal for monthly profit",
+        "current_profit": 0,
+        "status": "active",
+        "created_at": "2026-02-09T17:54:21.030668+00:00"
+      }
+    },
+    {
+      "test_name": "Get Goals",
+      "passed": true,
+      "details": "Status: 200 (expected 200)",
+      "response_data": {
+        "goals": [
+          {
+            "id": "40e52ec3-8516-4de9-a32f-c4fb68ac692d",
+            "user_id": "da2f6f71-0960-421c-b5c4-215c78f0e0bc",
+            "title": "Monthly Target",
+            "target_profit": 500.0,
+            "deadline": null,
+            "description": "Test goal for monthly profit",
+            "current_profit": 0,
+            "status": "active",
+            "created_at": "2026-02-09T17:54:21.030668+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "test_name": "Generate Signals",
+      "passed": true,
+      "details": "Status: 200 (expected 200)",
+      "response_data": {
+        "signals": [
+          {
+            "id": "673c5b0f-a519-4e89-bdfd-8dcff0699e5b",
+            "user_id": "da2f6f71-0960-421c-b5c4-215c78f0e0bc",
+            "symbol": "EUR/USD",
+            "ticker": "EURUSD=X",
+            "asset_type": "forex",
+            "action": "SELL",
+            "confidence": 82,
+            "price": 1.19119,
+            "tp1": 1.1897,
+            "tp2": 1.18822,
+            "sl": 1.19341,
+            "rsi": 82.6,
+            "created_at": "2026-02-09T17:54:22.007349+00:00"
+          },
+          {
+            "id": "97c624e6-c4f0-494d-bd22-3d8d111db386",
+            "user_id": "da2f6f71-0960-421c-b5c4-215c78f0e0bc",
+            "symbol": "GBP/USD",
+            "ticker": "GBPUSD=X",
+            "asset_type": "forex",
+            "action": "SELL",
+            "confidence": 70,
+            "price": 1.36717,
+            "tp1": 1.36492,
+            "tp2": 1.36268,
+            "sl": 1.37053,
+            "rsi": 70.7,
+            "created_at": "2026-02-09T17:54:22.070918+00:00"
+          },
+          {
+            "id": "83b5bd16-b0e6-4982-a93d-371ca41281cf",
+            "user_id": "da2f6f71-0960-421c-b5c4-215c78f0e0bc",
+            "symbol": "BTC/USD",
+            "ticker": "BTC-USD",
+            "asset_type": "crypto",
+            "action": "BUY",
+            "confidence": 65,
+            "price": 70770.50781,
+            "tp1": 71479.01786,
+            "tp2": 72187.5279,
+            "sl": 69707.74275,
+            "rsi": 46.0,
+            "created_at": "2026-02-09T17:54:22.122338+00:00"
+          },
+          {
+            "id": "91f3a0c2-c739-4255-84f0-facc4bb90686",
+            "user_id": "da2f6f71-0960-421c-b5c4-215c78f0e0bc",
+            "symbol": "ETH/USD",
+            "ticker": "ETH-USD",
+            "asset_type": "crypto",
+            "action": "BUY",
+            "confidence": 75,
+            "price": 2125.604,
+            "tp1": 2152.56252,
+            "tp2": 2179.52103,
+            "sl": 2085.16623,
+            "rsi": 57.2,
+            "created_at": "2026-02-09T17:54:22.174523+00:00"
+          },
+          {
+            "id": "d1993dfb-5d5f-47be-82d2-befb393547c5",
+            "user_id": "da2f6f71-0960-421c-b5c4-215c78f0e0bc",
+            "symbol": "Gold",
+            "ticker": "GC=F",
+            "asset_type": "metals",
+            "action": "BUY",
+            "confidence": 63,
+            "price": 5085.7998,
+            "tp1": 5115.78551,
+            "tp2": 5145.77121,
+            "sl": 5040.82125,
+            "rsi": 60.8,
+            "created_at": "2026-02-09T17:54:22.235960+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "test_name": "Get Signals",
+      "passed": true,
+      "details": "Status: 200 (expected 200)",
+      "response_data": {
+        "signals": [
+          {
+            "id": "d1993dfb-5d5f-47be-82d2-befb393547c5",
+            "user_id": "da2f6f71-0960-421c-b5c4-215c78f0e0bc",
+            "symbol": "Gold",
+            "ticker": "GC=F",
+            "asset_type": "metals",
+            "action": "BUY",
+            "confidence": 63,
+            "price": 5085.7998,
+            "tp1": 5115.78551,
+            "tp2": 5145.77121,
+            "sl": 5040.82125,
+            "rsi": 60.8,
+            "created_at": "2026-02-09T17:54:22.235960+00:00"
+          },
+          {
+            "id": "91f3a0c2-c739-4255-84f0-facc4bb90686",
+            "user_id": "da2f6f71-0960-421c-b5c4-215c78f0e0bc",
+            "symbol": "ETH/USD",
+            "ticker": "ETH-USD",
+            "asset_type": "crypto",
+            "action": "BUY",
+            "confidence": 75,
+            "price": 2125.604,
+            "tp1": 2152.56252,
+            "tp2": 2179.52103,
+            "sl": 2085.16623,
+            "rsi": 57.2,
+            "created_at": "2026-02-09T17:54:22.174523+00:00"
+          },
+          {
+            "id": "83b5bd16-b0e6-4982-a93d-371ca41281cf",
+            "user_id": "da2f6f71-0960-421c-b5c4-215c78f0e0bc",
+            "symbol": "BTC/USD",
+            "ticker": "BTC-USD",
+            "asset_type": "crypto",
+            "action": "BUY",
+            "confidence": 65,
+            "price": 70770.50781,
+            "tp1": 71479.01786,
+            "tp2": 72187.5279,
+            "sl": 69707.74275,
+            "rsi": 46.0,
+            "created_at": "2026-02-09T17:54:22.122338+00:00"
+          },
+          {
+            "id": "97c624e6-c4f0-494d-bd22-3d8d111db386",
+            "user_id": "da2f6f71-0960-421c-b5c4-215c78f0e0bc",
+            "symbol": "GBP/USD",
+            "ticker": "GBPUSD=X",
+            "asset_type": "forex",
+            "action": "SELL",
+            "confidence": 70,
+            "price": 1.36717,
+            "tp1": 1.36492,
+            "tp2": 1.36268,
+            "sl": 1.37053,
+            "rsi": 70.7,
+            "created_at": "2026-02-09T17:54:22.070918+00:00"
+          },
+          {
+            "id": "673c5b0f-a519-4e89-bdfd-8dcff0699e5b",
+            "user_id": "da2f6f71-0960-421c-b5c4-215c78f0e0bc",
+            "symbol": "EUR/USD",
+            "ticker": "EURUSD=X",
+            "asset_type": "forex",
+            "action": "SELL",
+            "confidence": 82,
+            "price": 1.19119,
+            "tp1": 1.1897,
+            "tp2": 1.18822,
+            "sl": 1.19341,
+            "rsi": 82.6,
+            "created_at": "2026-02-09T17:54:22.007349+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "test_name": "Get Challenges",
+      "passed": true,
+      "details": "Status: 200 (expected 200)",
+      "response_data": {
+        "daily": [
+          {
+            "id": "log_trade",
+            "title": "Log a Trade",
+            "description": "Record at least one trade today",
+            "xp": 20,
+            "type": "daily",
+            "completed": false
+          },
+          {
+            "id": "analyze_chart",
+            "title": "Analyze a Chart",
+            "description": "Run AI analysis on any symbol",
+            "xp": 25,
+            "type": "daily",
+            "completed": false
+          },
+          {
+            "id": "set_goal",
+            "title": "Set a Goal",
+            "description": "Create or update a trading goal",
+            "xp": 15,
+            "type": "daily",
+            "completed": false
+          },
+          {
+            "id": "review_signals",
+            "title": "Check Signals",
+            "description": "Review today's AI signals",
+            "xp": 10,
+            "type": "daily",
+            "completed": false
+          },
+          {
+            "id": "study_lesson",
+            "title": "Study Time",
+            "description": "Complete a trading lesson",
+            "xp": 30,
+            "type": "daily",
+            "completed": false
+          }
+        ],
+        "weekly": [
+          {
+            "id": "win_streak_3",
+            "title": "Hot Streak",
+            "description": "Win 3 trades in a row",
+            "xp": 100,
+            "type": "weekly",
+            "completed": false
+          },
+          {
+            "id": "profit_target",
+            "title": "Profit Hunter",
+            "description": "Reach $100 profit this week",
+            "xp": 150,
+            "type": "weekly",
+            "completed": false
+          },
+          {
+            "id": "analyze_5",
+            "title": "Chart Master",
+            "description": "Analyze 5 different symbols",
+            "xp": 75,
+            "type": "weekly",
+            "completed": false
+          },
+          {
+            "id": "journal_5",
+            "title": "Consistent Logger",
+            "description": "Log trades for 5 days",
+            "xp": 80,
+            "type": "weekly",
+            "completed": false
+          }
+        ],
+        "achievements": [
+          {
+            "id": "first_trade",
+            "title": "First Steps",
+            "description": "Log your first trade",
+            "icon": "trophy"
+          },
+          {
+            "id": "streak_7",
+            "title": "Week Warrior",
+            "description": "Maintain a 7-day streak",
+            "icon": "flame"
+          },
+          {
+            "id": "streak_30",
+            "title": "Monthly Machine",
+            "description": "Maintain a 30-day streak",
+            "icon": "zap"
+          },
+          {
+            "id": "analyses_10",
+            "title": "Pattern Seeker",
+            "description": "Complete 10 AI analyses",
+            "icon": "eye"
+          },
+          {
+            "id": "analyses_50",
+            "title": "Chart Whisperer",
+            "description": "Complete 50 AI analyses",
+            "icon": "brain"
+          },
+          {
+            "id": "profit_1000",
+            "title": "Grand Trader",
+            "description": "Earn $1000 total profit",
+            "icon": "dollar"
+          },
+          {
+            "id": "level_5",
+            "title": "Rising Star",
+            "description": "Reach level 5",
+            "icon": "star"
+          },
+          {
+            "id": "level_10",
+            "title": "Elite Trader",
+            "description": "Reach level 10",
+            "icon": "crown"
+          },
+          {
+            "id": "win_rate_60",
+            "title": "Consistent Winner",
+            "description": "Maintain 60%+ win rate over 20 trades",
+            "icon": "target"
+          },
+          {
+            "id": "goal_complete",
+            "title": "Goal Crusher",
+            "description": "Complete your first trading goal",
+            "icon": "flag"
+          }
+        ]
+      }
+    },
+    {
+      "test_name": "Complete Challenge",
+      "passed": true,
+      "details": "Status: 200 (expected 200)",
+      "response_data": {
+        "success": true,
+        "xp_earned": 20
+      }
+    },
+    {
+      "test_name": "Get Academy Lessons",
+      "passed": true,
+      "details": "Status: 200 (expected 200)",
+      "response_data": {
+        "lessons": [
+          {
+            "id": "candle_basics",
+            "module": "Candlestick Patterns",
+            "title": "Understanding Candlesticks",
+            "difficulty": "beginner",
+            "xp": 20,
+            "content": "Learn the basics of candlestick charts including body, wicks, and what they represent about market sentiment.",
+            "duration": "10 min",
+            "completed": false
+          },
+          {
+            "id": "candle_doji",
+            "module": "Candlestick Patterns",
+            "title": "Doji & Spinning Tops",
+            "difficulty": "beginner",
+            "xp": 25,
+            "content": "Master doji patterns - standard doji, dragonfly, gravestone, and long-legged doji patterns for reversal signals.",
+            "duration": "15 min",
+            "completed": false
+          },
+          {
+            "id": "candle_engulfing",
+            "module": "Candlestick Patterns",
+            "title": "Engulfing Patterns",
+            "difficulty": "intermediate",
+            "xp": 30,
+            "content": "Bullish and bearish engulfing patterns are powerful reversal signals. Learn to identify and trade them.",
+            "duration": "12 min",
+            "completed": false
+          },
+          {
+            "id": "trend_basics",
+            "module": "Trend Analysis",
+            "title": "Identifying Trends",
+            "difficulty": "beginner",
+            "xp": 20,
+            "content": "Learn to identify uptrends, downtrends, and sideways markets using higher highs, higher lows patterns.",
+            "duration": "10 min",
+            "completed": false
+          },
+          {
+            "id": "trend_lines",
+            "module": "Trend Analysis",
+            "title": "Drawing Trendlines",
+            "difficulty": "intermediate",
+            "xp": 30,
+            "content": "Master the art of drawing accurate trendlines and channels for trend-following strategies.",
+            "duration": "15 min",
+            "completed": false
+          },
+          {
+            "id": "sr_basics",
+            "module": "Support & Resistance",
+            "title": "Key Levels",
+            "difficulty": "beginner",
+            "xp": 25,
+            "content": "Understanding support and resistance levels - how price reacts at key levels and how to trade bounces.",
+            "duration": "12 min",
+            "completed": false
+          },
+          {
+            "id": "indicator_rsi",
+            "module": "Technical Indicators",
+            "title": "RSI Mastery",
+            "difficulty": "intermediate",
+            "xp": 35,
+            "content": "Relative Strength Index - overbought/oversold conditions, divergences, and hidden divergences.",
+            "duration": "20 min",
+            "completed": false
+          },
+          {
+            "id": "indicator_macd",
+            "module": "Technical Indicators",
+            "title": "MACD Deep Dive",
+            "difficulty": "intermediate",
+            "xp": 35,
+            "content": "MACD histogram, signal line crossovers, and divergence trading strategies.",
+            "duration": "20 min",
+            "completed": false
+          },
+          {
+            "id": "indicator_bb",
+            "module": "Technical Indicators",
+            "title": "Bollinger Bands Strategy",
+            "difficulty": "advanced",
+            "xp": 40,
+            "content": "Bollinger Band squeezes, walks, and mean reversion strategies for volatility trading.",
+            "duration": "25 min",
+            "completed": false
+          },
+          {
+            "id": "risk_mgmt",
+            "module": "Risk Management",
+            "title": "Position Sizing",
+            "difficulty": "beginner",
+            "xp": 30,
+            "content": "Learn the 1-2% rule, risk-reward ratios, and how to calculate proper position sizes.",
+            "duration": "15 min",
+            "completed": false
+          },
+          {
+            "id": "risk_psychology",
+            "module": "Trading Psychology",
+            "title": "Emotions in Trading",
+            "difficulty": "beginner",
+            "xp": 25,
+            "content": "Managing fear and greed, avoiding revenge trading, and building mental discipline.",
+            "duration": "15 min",
+            "completed": false
+          },
+          {
+            "id": "harmonic_gartley",
+            "module": "Advanced Patterns",
+            "title": "Gartley Pattern",
+            "difficulty": "advanced",
+            "xp": 50,
+            "content": "Learn the Gartley harmonic pattern with Fibonacci ratios for high-probability reversal trades.",
+            "duration": "30 min",
+            "completed": false
+          },
+          {
+            "id": "harmonic_bat",
+            "module": "Advanced Patterns",
+            "title": "Bat & Butterfly Patterns",
+            "difficulty": "advanced",
+            "xp": 50,
+            "content": "Advanced harmonic patterns - Bat (0.886 retracement) and Butterfly (1.272 extension) setups.",
+            "duration": "30 min",
+            "completed": false
+          },
+          {
+            "id": "market_structure",
+            "module": "Market Structure",
+            "title": "Break of Structure",
+            "difficulty": "advanced",
+            "xp": 45,
+            "content": "Smart money concepts - Break of Structure (BOS), Change of Character (CHoCH), and order blocks.",
+            "duration": "25 min",
+            "completed": false
+          }
+        ],
+        "modules": {
+          "Candlestick Patterns": [
+            {
+              "id": "candle_basics",
+              "module": "Candlestick Patterns",
+              "title": "Understanding Candlesticks",
+              "difficulty": "beginner",
+              "xp": 20,
+              "content": "Learn the basics of candlestick charts including body, wicks, and what they represent about market sentiment.",
+              "duration": "10 min",
+              "completed": false
+            },
+            {
+              "id": "candle_doji",
+              "module": "Candlestick Patterns",
+              "title": "Doji & Spinning Tops",
+              "difficulty": "beginner",
+              "xp": 25,
+              "content": "Master doji patterns - standard doji, dragonfly, gravestone, and long-legged doji patterns for reversal signals.",
+              "duration": "15 min",
+              "completed": false
+            },
+            {
+              "id": "candle_engulfing",
+              "module": "Candlestick Patterns",
+              "title": "Engulfing Patterns",
+              "difficulty": "intermediate",
+              "xp": 30,
+              "content": "Bullish and bearish engulfing patterns are powerful reversal signals. Learn to identify and trade them.",
+              "duration": "12 min",
+              "completed": false
+            }
+          ],
+          "Trend Analysis": [
+            {
+              "id": "trend_basics",
+              "module": "Trend Analysis",
+              "title": "Identifying Trends",
+              "difficulty": "beginner",
+              "xp": 20,
+              "content": "Learn to identify uptrends, downtrends, and sideways markets using higher highs, higher lows patterns.",
+              "duration": "10 min",
+              "completed": false
+            },
+            {
+              "id": "trend_lines",
+              "module": "Trend Analysis",
+              "title": "Drawing Trendlines",
+              "difficulty": "intermediate",
+              "xp": 30,
+              "content": "Master the art of drawing accurate trendlines and channels for trend-following strategies.",
+              "duration": "15 min",
+              "completed": false
+            }
+          ],
+          "Support & Resistance": [
+            {
+              "id": "sr_basics",
+              "module": "Support & Resistance",
+              "title": "Key Levels",
+              "difficulty": "beginner",
+              "xp": 25,
+              "content": "Understanding support and resistance levels - how price reacts at key levels and how to trade bounces.",
+              "duration": "12 min",
+              "completed": false
+            }
+          ],
+          "Technical Indicators": [
+            {
+              "id": "indicator_rsi",
+              "module": "Technical Indicators",
+              "title": "RSI Mastery",
+              "difficulty": "intermediate",
+              "xp": 35,
+              "content": "Relative Strength Index - overbought/oversold conditions, divergences, and hidden divergences.",
+              "duration": "20 min",
+              "completed": false
+            },
+            {
+              "id": "indicator_macd",
+              "module": "Technical Indicators",
+              "title": "MACD Deep Dive",
+              "difficulty": "intermediate",
+              "xp": 35,
+              "content": "MACD histogram, signal line crossovers, and divergence trading strategies.",
+              "duration": "20 min",
+              "completed": false
+            },
+            {
+              "id": "indicator_bb",
+              "module": "Technical Indicators",
+              "title": "Bollinger Bands Strategy",
+              "difficulty": "advanced",
+              "xp": 40,
+              "content": "Bollinger Band squeezes, walks, and mean reversion strategies for volatility trading.",
+              "duration": "25 min",
+              "completed": false
+            }
+          ],
+          "Risk Management": [
+            {
+              "id": "risk_mgmt",
+              "module": "Risk Management",
+              "title": "Position Sizing",
+              "difficulty": "beginner",
+              "xp": 30,
+              "content": "Learn the 1-2% rule, risk-reward ratios, and how to calculate proper position sizes.",
+              "duration": "15 min",
+              "completed": false
+            }
+          ],
+          "Trading Psychology": [
+            {
+              "id": "risk_psychology",
+              "module": "Trading Psychology",
+              "title": "Emotions in Trading",
+              "difficulty": "beginner",
+              "xp": 25,
+              "content": "Managing fear and greed, avoiding revenge trading, and building mental discipline.",
+              "duration": "15 min",
+              "completed": false
+            }
+          ],
+          "Advanced Patterns": [
+            {
+              "id": "harmonic_gartley",
+              "module": "Advanced Patterns",
+              "title": "Gartley Pattern",
+              "difficulty": "advanced",
+              "xp": 50,
+              "content": "Learn the Gartley harmonic pattern with Fibonacci ratios for high-probability reversal trades.",
+              "duration": "30 min",
+              "completed": false
+            },
+            {
+              "id": "harmonic_bat",
+              "module": "Advanced Patterns",
+              "title": "Bat & Butterfly Patterns",
+              "difficulty": "advanced",
+              "xp": 50,
+              "content": "Advanced harmonic patterns - Bat (0.886 retracement) and Butterfly (1.272 extension) setups.",
+              "duration": "30 min",
+              "completed": false
+            }
+          ],
+          "Market Structure": [
+            {
+              "id": "market_structure",
+              "module": "Market Structure",
+              "title": "Break of Structure",
+              "difficulty": "advanced",
+              "xp": 45,
+              "content": "Smart money concepts - Break of Structure (BOS), Change of Character (CHoCH), and order blocks.",
+              "duration": "25 min",
+              "completed": false
+            }
+          ]
+        },
+        "completed_count": 0,
+        "total_count": 14
+      }
+    },
+    {
+      "test_name": "Complete Lesson",
+      "passed": true,
+      "details": "Status: 200 (expected 200)",
+      "response_data": {
+        "success": true,
+        "xp_earned": 20
+      }
+    },
+    {
+      "test_name": "Get Analytics",
+      "passed": true,
+      "details": "Status: 200 (expected 200)",
+      "response_data": {
+        "total_trades": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0,
+        "total_pnl": 75.0,
+        "avg_win": 75.0,
+        "avg_loss": 0,
+        "profit_factor": 0,
+        "max_drawdown": 0,
+        "equity_curve": [
+          {
+            "date": "2026-02-09",
+            "equity": 75.0
+          }
+        ],
+        "by_asset": {
+          "forex": {
+            "trades": 1,
+            "pnl": 75.0,
+            "wins": 1
+          }
+        },
+        "recent_trades": [
+          {
+            "id": "562af8a1-a6e4-435c-a573-8dab29869131",
+            "user_id": "da2f6f71-0960-421c-b5c4-215c78f0e0bc",
+            "symbol": "EURUSD",
+            "entry_price": 1.085,
+            "position_size": 1.0,
+            "tp1": null,
+            "tp2": null,
+            "tp3": null,
+            "sl": null,
+            "trade_type": "buy",
+            "outcome": "tp_hit",
+            "exit_price": 1.09,
+            "pnl": 75.0,
+            "notes": "",
+            "asset_type": "forex",
+            "timeframe": "1h",
+            "status": "closed",
+            "created_at": "2026-02-09T17:54:19.785483+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "test_name": "Get Profile",
+      "passed": true,
+      "details": "Status: 200 (expected 200)",
+      "response_data": {
+        "id": "da2f6f71-0960-421c-b5c4-215c78f0e0bc",
+        "username": "tester1",
+        "email": "tester1@test.com",
+        "trader_type": "swing",
+        "xp": 75,
+        "level": 1,
+        "streak": 0,
+        "best_streak": 0,
+        "last_active": "2026-02-09T17:54:00.571564+00:00",
+        "achievements": [
+          "first_trade"
+        ],
+        "created_at": "2026-02-09T17:54:00.571575+00:00",
+        "total_trades": 1,
+        "total_analyses": 1,
+        "lessons_completed": 1,
+        "total_pnl": 75.0,
+        "win_rate": 100.0,
+        "level_title": "Novice",
+        "xp_to_next": 425,
+        "all_achievements": [
+          {
+            "id": "first_trade",
+            "title": "First Steps",
+            "description": "Log your first trade",
+            "icon": "trophy"
+          },
+          {
+            "id": "streak_7",
+            "title": "Week Warrior",
+            "description": "Maintain a 7-day streak",
+            "icon": "flame"
+          },
+          {
+            "id": "streak_30",
+            "title": "Monthly Machine",
+            "description": "Maintain a 30-day streak",
+            "icon": "zap"
+          },
+          {
+            "id": "analyses_10",
+            "title": "Pattern Seeker",
+            "description": "Complete 10 AI analyses",
+            "icon": "eye"
+          },
+          {
+            "id": "analyses_50",
+            "title": "Chart Whisperer",
+            "description": "Complete 50 AI analyses",
+            "icon": "brain"
+          },
+          {
+            "id": "profit_1000",
+            "title": "Grand Trader",
+            "description": "Earn $1000 total profit",
+            "icon": "dollar"
+          },
+          {
+            "id": "level_5",
+            "title": "Rising Star",
+            "description": "Reach level 5",
+            "icon": "star"
+          },
+          {
+            "id": "level_10",
+            "title": "Elite Trader",
+            "description": "Reach level 10",
+            "icon": "crown"
+          },
+          {
+            "id": "win_rate_60",
+            "title": "Consistent Winner",
+            "description": "Maintain 60%+ win rate over 20 trades",
+            "icon": "target"
+          },
+          {
+            "id": "goal_complete",
+            "title": "Goal Crusher",
+            "description": "Complete your first trading goal",
+            "icon": "flag"
+          }
+        ],
+        "new_achievements": [
+          "first_trade"
+        ]
+      }
+    }
+  ]
+}
